@@ -11,7 +11,7 @@ In this section, we'll learn to write client-side JavaScript to generate our con
 
 # Intro to the DOM
 
-The Document Object Model (DOM) is a representation of, in our case, HTML that can be changed and manipulated with code. For us, that means we'll be able to write JavaScript code that dynamically generates our gameboard.
+The Document Object Model (DOM) is a representation of, in our case, HTML that can be changed and manipulated with code. For us, that means we'll be able to write JavaScript code that dynamically generates our gameboard in the browser.
 
 > [info]
 >
@@ -86,7 +86,7 @@ In `main.js`, add the following code:
 >
 ```JavaScript
 const boardElement = document.getElementById('gameboard');
-boardElement.innerHTML = '<p>changing the DOM<p>'
+boardElement.innerHTML = '<p>changing the DOM</p>'
 console.log(boardElement);
 ```
 >
@@ -338,7 +338,7 @@ class BoardSquare {
 >
   constructor(element, color) {
     this.element = element;
-    setColor(color);
+    this.setColor(color);
   }
 >
   // 1
@@ -374,7 +374,7 @@ class BoardSquare {
     this.element = element;
     this.isFaceUp = false;
     this.isMatched = false;
-    setColor(color);
+    this.setColor(color);
   }
 >
   // ... previous code
@@ -403,7 +403,7 @@ function generateColorPairs() {
       colorPairs.push('color-' + i);
       colorPairs.push('color-' + i);
     }
-
+>
     return colorPairs;
   }
 }
@@ -469,7 +469,7 @@ We've already completed step 1, however let's refactor our code into a function 
 
 > [action]
 >
-In `main.js`, move the function call of `generateHTMLForBoardSquares()` in a new function named `gameSetup()`:
+In `main.js`, move the function call of `generateHTMLForBoardSquares()` into a new function named `gameSetup()`. Make sure this code is at the bottom of your `main.js` file.
 >
 ```JavaScript
 function setupGame() {
