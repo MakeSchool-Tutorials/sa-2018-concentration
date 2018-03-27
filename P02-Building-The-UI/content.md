@@ -177,7 +177,7 @@ Next, let's create a `.row` `<div>` within our `.board-container`.
 Similar to our `.board-container`, let's give our row a blue `background-color` so we can see the area of the `<div>`. In your stylesheet, add the following _descendant selector_:
 >
 ```CSS
-.board-container row {
+.board-container .row {
   background-color: blue;
 }
 ```
@@ -193,7 +193,7 @@ Our `.row` `<div>` doesn't automatically assume the height of it's container `<d
 Give the `.row` container within your gameboard the same height it's container `<div>`:
 >
 ```CSS
-.board-container row {
+.board-container .row {
   background-color: blue;
   height: 100%;
 }
@@ -340,14 +340,14 @@ Within your `.face-container` `<div>`, add a `.facedown` and `.faceup` `<div>`:
 We'll need to add some more CSS for our facedown and faceup `<div>` elements:
 >
 ```CSS
-.face-up, .face-down {
+.faceup, .facedown {
   height: 50%;
 }
 >
 .facedown {
   background-color: lightGray;
 }
-
+>
 .faceup {
   background-color: coral;
 }
@@ -469,7 +469,7 @@ Before moving onto the next section, let's do some cleanup. We added some extra,
 > [action]
 >
 1. In `index.html`, remove the `.flipped` class from the `.board-square` `<div>` so that it returns to being `.facedown`.
-1. In `style.css`, modify your border to have a color of `#F7F7F7`, instead of `red`.
+1. In `style.css`, modify your `.board-square` border to have a color of `#F7F7F7`, instead of `red`.
 1. In `style.css`, remove the `blue` background color from `.face-container`.
 1. In `style.css`, delete the CSS rule setting a `coral` background color for the `.faceup` selector.
 1. In `style.css`, change the background color of your `.facedown` selector from `lightGray` to `#D0D0D0`
