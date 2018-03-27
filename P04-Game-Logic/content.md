@@ -88,14 +88,14 @@ When a player clicks on a square, the following should happen:
 
 Let's breakdown step 3. further. 
 
-### Handling Flipped Squares
+### 3. Handling Flipped Squares
 
 When a square is flipped, the following should happen:
 
-1. If the square is the first to be flipped faceup, save a reference to it and do nothing else.
-2. If the square is the second to be flipped faceup, check if it's faceup color matches with the first square.
-  3. If so, set the squares to matched and clear the reference of the first square.
-  4. If not, flip both squares back to facedown and clear the reference to the first square.
+a. If the square is the first to be flipped faceup, save a reference to it and do nothing else.
+b. If the square is the second to be flipped faceup, check if it's faceup color matches with the first square.
+  c. If so, set the squares to matched and clear the reference of the first square.
+  d. If not, flip both squares back to facedown and clear the reference to the first square.
   
 We can start by implementing the logic for when a player clicks on a square.
 
@@ -151,7 +151,7 @@ class BoardSquare {
     this.isMatched = false;
     this.element.classList.remove('flipped');
   }
-  >
+>
   matchFound() {
     this.isFaceUp = true;
     this.isMatched = true;
