@@ -76,9 +76,9 @@ In your Chrome web browser, open your concentration `index.html` in a new tab.
 >
 To open your HTML document in Chrome, follow the steps below:
 >
-1. Open the _Tree View_ in _Atom_ if it's not open already. You can toggle the _Tree View_ with the shortcut `CMD-\` or selecting the command under the _View menu_. ![Toggle Tree View](assets/toggle_tree_view.png)
-1. With your _Tree View_ open, right-click on your `index.html` file. In the contextual menu that pops up, click on `Copy Full Path`. ![Copy Full Path](assets/copy_full_path.png)
-1. Open a _New Tab_ in _Google Chrome_ and paste the full file path into the address bar. ![Chrome Full File Path](assets/chrome_full_file_path.png)
+1. Open the _Tree View_ in _Atom_ if it's not open already. You can toggle the _Tree View_ with the shortcut `CMD-\` or selecting the command under the _View menu_. ![Toggle Tree View](assets/toggle_tree_view.jpg)
+1. With your _Tree View_ open, right-click on your `index.html` file. In the contextual menu that pops up, click on `Copy Full Path`. ![Copy Full Path](assets/copy_full_path.jpg)
+1. Open a _New Tab_ in _Google Chrome_ and paste the full file path into the address bar. ![Chrome Full File Path](assets/chrome_full_file_path.jpg)
 1. Once your `index.html` file path is in the address path, hit the _Return_ key and you should see your `Hello, World!` web page. ![Hello World](assets/hello_world.jpg)
 
 Off to a good start.
