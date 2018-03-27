@@ -11,7 +11,7 @@ In this section, we'll learn to write client-side JavaScript to generate our con
 
 # Intro to the DOM
 
-The Document Object Model (DOM) is a representation of, in our case, HTML that can be changed and manipulated with code. For us, that means we'll be able to write JavaScript code that dynamically generates our gameboard in the browser.
+The Document Object Model (DOM) is a representation of HTML that can be changed and manipulated with code. For us, that means we'll be able to write JavaScript code that dynamically changes our HTML and generates our gameboard in the browser.
 
 > [info]
 >

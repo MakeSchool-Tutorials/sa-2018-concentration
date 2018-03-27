@@ -204,7 +204,7 @@ class BoardSquare {
   setColor(color) {
     const faceUpElement = this.element.getElementsByClassName('face-up')[0];
 >
-    // 1
+    // remove the previous color if it exists
     faceUpElement.classList.remove(this.color);
 >
     this.color = color;

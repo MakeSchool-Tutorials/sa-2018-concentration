@@ -7,7 +7,7 @@ Welcome, welcome. You've reached the third tutorial of Make School's full-stack 
 
 In this tutorial, we'll become friends with client-side JavaScript by building a game of concentration. We'll do the following:
 
-1. Build the game UI using HTML and CSS
+1. Build the game UI using HTML, CSS, and Bootstrap
 2. Implement the game logic with client-side JavaScript
 
 In this tutorial, we'll focus on using our front-end technologies: HTML, CSS and client-side JavaScript. Our game will be played in the web browser and won't have a back-end. All code will be retrieved locally on our personal computer.
