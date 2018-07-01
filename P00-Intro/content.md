@@ -16,7 +16,7 @@ In this tutorial, we'll focus on using our front-end technologies: HTML, CSS and
 
 > [info]
 >
-Client-side JavaScript refers to JavaScript code that implements logic on our client (in our case, the browser.) We'll use JavaScript to implement our concentration game's logic. In the next tutorial, we'll start to learn about using JavaScript to build web apps that run on servers.
+Client-side JavaScript refers to JavaScript code that implements logic on our client (in our case, the browser). We'll use JavaScript to implement our concentration game's logic. In the next tutorial, we'll start to learn about using JavaScript to build web apps that run on servers.
 
 # What is Concentration?
 
@@ -56,7 +56,7 @@ If you can't, it's recommended to first complete or review the previous Make Sch
 
 In this tutorial, we'll build a game of concentration.
 
-If you've been searching for one of those classic, old-school games to distract you from everything you should be doing, this one's for you! (Please play responsibly.) 
+If you've been searching for one of those classic, old-school games to distract you from everything you should be doing, this one's for you! Please play responsibly.
 
 Let's take a look at what our game will look like when it's complete:
 
@@ -74,14 +74,13 @@ By the end of this tutorial, you will:
 
 - become more familiar with programming in JavaScript
 - manipulate the DOM using client-side JavaScript
-- learn to think through and implement more complex logic 
+- learn to think through and implement more complex logic
 - utilize the Chrome DevTools for debugging client-side JavaScript
 
 # If You Get Stuck
 
-Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk.) Make sure you've followed each step of the tutorial. It's easy to make typos or accidentally skip over important steps.
+Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk). Make sure you've followed each step of the tutorial. It's easy to make typos or accidentally skip over important steps.
 
 If you want to compare your code to the solution, you can find it here:
 
 <!-- TODO: insert link to github repo -->
-

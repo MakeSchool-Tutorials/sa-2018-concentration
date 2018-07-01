@@ -108,7 +108,7 @@ We'll start off by trying to generate a single `.board-square` `<div>` using Jav
 
 > [challenge]
 >
-Using what we've learned so far, use JavaScript to change the DOM so that the `#gameboard` element contains a single `.board-square` (with all of it's children elements.)
+Using what we've learned so far, use JavaScript to change the DOM so that the `#gameboard` element contains a single `.board-square` (with all of it's children elements).
 
 <!-- break -->
 

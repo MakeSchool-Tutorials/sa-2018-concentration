@@ -81,12 +81,12 @@ After handling the _click_ event of our squares, we can move on to actually impl
 
 When a player clicks on a square, the following should happen:
 
-1. Check that the square isn't already faceup or matched with it's pair. 
+1. Check that the square isn't already faceup or matched with it's pair.
   2. If so, don't do anything.
   3. If not, flip the square faceup and set it's `isFaceUp` property to true.
 4. Handle the game logic for when a square is flipped.
 
-Let's breakdown step 3. further. 
+Let's breakdown step 3. further.
 
 ### 3. Handling Flipped Squares
 
@@ -96,7 +96,7 @@ a. If the square is the first to be flipped faceup, save a reference to it and d
 b. If the square is the second to be flipped faceup, check if it's faceup color matches with the first square.
   c. If so, set the squares to matched and clear the reference of the first square.
   d. If not, flip both squares back to facedown and clear the reference to the first square.
-  
+
 We can start by implementing the logic for when a player clicks on a square.
 
 ## Implementing Game Logic
@@ -130,7 +130,7 @@ We follow our logic above and implement the following:
 1. Check that both `isFaceUp` and `isMatched` are false.
 1. If either is true, return and do nothing else.
 1. If both are `false`, set `isFaceUp` to `true` and add `.flipped` to the `.board-square` DOM element.
-1. Call a function to handle the game logic for flipping a square. (If you're wondering, we haven't implemented this yet.)
+1. Call a function to handle the game logic for flipping a square. If you're wondering, we haven't implemented this yet.
 
 Next, we'll move on to adding the code to handle flipped squares. But before that, let's add some helper functions in our `BoardSquare` class so that we can easily:
 
