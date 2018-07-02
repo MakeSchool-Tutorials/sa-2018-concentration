@@ -3,7 +3,7 @@ title: "Client-side JavaScript"
 slug: client-side-javascript
 ---
 
-In the previous section, we worked on implementing the UI for our gameboard. You should have created a 4x4 grid gameboard with a single square. 
+In the previous section, we worked on implementing the UI for our gameboard. You should have created a 4x4 grid gameboard with a single square.
 
 ![Starting Point](assets/starting_point.png)
 
@@ -281,43 +281,43 @@ class BoardSquare {
 
 The color parameter will be a `String` of a CSS class with a `background-color` set.
 
-Let's go ahead and create 8 color classes in our `style.css` stylesheet. 
+Let's go ahead and create 8 color classes in our `style.css` stylesheet.
 
 > [action]
 >
 In `style.css`, add the following to the bottom of your stylesheet:
 >
-```
+```CSS
 /* colors */
-
+>
 .color-0 {
   background-color: aqua;
 }
-
+>
 .color-1 {
   background-color: bisque;
 }
-
+>
 .color-2 {
   background-color: blue;
 }
-
+>
 .color-3 {
   background-color: blueviolet;
 }
-
+>
 .color-4 {
   background-color: brown;
 }
-
+>
 .color-5 {
   background-color: cadetblue;
 }
-
+>
 .color-6 {
   background-color: chartreuse;
 }
-
+>
 .color-7 {
   background-color: coral;
 }
@@ -411,7 +411,7 @@ function generateColorPairs() {
 >
 In the code above, we generate an array of matching pairs for each of our CSS color classes. Since concentration requires `BoardSquare` objects with matching faceup colors, we'll need to add two of each color to our array.
 
-Next, we'll add some code that randomly shuffles an array of elements based on the Fisher-Yates algorithm. This will be a helper function that helps us randomly shuffle our matching colors. 
+Next, we'll add some code that randomly shuffles an array of elements based on the Fisher-Yates algorithm. This will be a helper function that helps us randomly shuffle our matching colors.
 
 > [action]
 >
