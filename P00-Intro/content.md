@@ -30,7 +30,7 @@ Once the game starts, the player clicks on any square within the grid. Once clic
 
 The player then has the opportunity to reveal the color of another square. If the color of the second square matches the color of the first square, a match is made. If not, the colors of the two squares return to hidden and the player tries again.
 
-![Playing Concentration](assets/playing_concentration.mov)
+![ms-video](assets/playing_concentration.mov)
 
 The player tries to match all of the colored squares with their matching square as quickly as possible.
 
@@ -60,12 +60,12 @@ If you've been searching for one of those classic, old-school games to distract 
 
 Let's take a look at what our game will look like when it's complete:
 
-![Finish Full Game](assets/finish_full_game.mov)
+![ms-video](assets/finish_full_game.mov)
 
 To review the rules of gameplay: a player reveals the color of two squares at a time. If the color of the chosen squares are the same, a match is made. If not, the color of the square return to hidden. The game is won when the player matches every square with it's matching pair in the board.
 
-You can preview the finished concentration game in the browser here:
-
+<!-- You can preview the finished concentration game in the browser here: -->
+<!--  -->
 <!-- TODO: turn into github page with the concentration game -->
 
 # What You'll Learn
