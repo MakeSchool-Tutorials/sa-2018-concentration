@@ -13,7 +13,7 @@ We'll be using the same set of tools we previously learned about:
 - Chrome: viewing and interacting with our UI
 - Chrome DevTools: debugging and testing our game
 
-You'll need to make sure you have both _Google Chrome_ and the _Atom_ text editor installed. If you've completed the previous tutorials, you will have done through this already. 
+You'll need to make sure you have both _Google Chrome_ and the _Atom_ text editor installed. If you've completed the previous tutorials, you will have done through this already.
 
 > [info]
 >
@@ -124,7 +124,7 @@ h1 {
 }
 ```
 
-Refresh your HTML doc in your browser and you should see `Hello, World!` in orange. 
+Refresh your HTML doc in your browser and you should see `Hello, World!` in orange.
 
 ![Orange Hello World](assets/orange_hello_world.png)
 
@@ -157,7 +157,7 @@ In `index.html`, add the following `<script>` element below Bootstrap's scripts 
 <body>
   <!-- ... previous HTML content -->
   <!-- ... Bootstrap scripts -->
-  
+>
   <!-- add line below -->
   <script src="js/main.js" charset="utf-8"></script>
 </body>
