@@ -43,7 +43,7 @@ In `index.html`, perform the following:
   <script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
-
+>
 ```
 >
 1. Delete the `<h1>` element that displays `Hello, world!`.
@@ -373,7 +373,7 @@ In your stylesheet, add the `overflow` property to your `.board-square` `<div>`:
 }
 ```
 
-Refresh your gameboard and you'll see that only the `.facedown` `<div>` shown in your `.board-square` `<div>`. 
+Refresh your gameboard and you'll see that only the `.facedown` `<div>` shown in your `.board-square` `<div>`.
 
 ![Boardsquare No Overflow](assets/boardsquare_no_overflow.png)
 
@@ -452,7 +452,7 @@ In `index.html`, add the `.flipped` class to your `.board-square` `<div>`:
 </div>
 ```
 
-Refresh your browser and take a look. 
+Refresh your browser and take a look.
 
 ![Flipped Boardsquare](assets/flipped_boardsquare.png)
 
