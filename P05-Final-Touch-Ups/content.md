@@ -229,7 +229,7 @@ resetButton.addEventListener('click', () => {
 
 Now, whenever our _Reset button_ is clicked, our concentration will be reset. Let's refresh our web page and test it out.
 
-![Reset Game](assets/reset_game.mov)
+![ms-video](assets/reset_game.mov)
 
 # Wrapping Up
 

@@ -3,13 +3,13 @@ title: "Game Logic"
 slug: game-logic
 ---
 
-With our gameboard successfully setup, we'll move onto implementing the game logic. In other words, we'll start writing code so that the rules of the game are followed.
+With our game board successfully setup, we'll move onto implementing the game logic. In other words, we'll start writing code so that the rules of the game are followed.
 
 In this section, we'll need to implement JavaScript for the following:
 
 - monitoring when `.board-square` `<div>` elements are clicked by the player
-- flipping squares from facedown to faceup and vice versa
-- checking if two squares have matching faceup colors
+- flipping squares from face down toface upp and vice versa
+- checking if two squares have matching face up colors
 
 # Handling Square Click Events
 
@@ -67,11 +67,11 @@ Let's go through the steps above together:
 >
 1. We add a new method to our `BoardSquare` class definition named `handleEvent()`.
 1. Check that the event that we're handling is a _click_ event. If the event is not a _click_ event, we don't handle it.
-1. Log to the JavaScript console that the gameboard square was clicked.
+1. Log to the JavaScript console that the game board square was clicked.
 
-Refresh your browser and click on a couple squares. Navigate to your JavaScript console in your DevTools window and verify that each gameboard square is handling _click_ events.
+Refresh your browser and click on a couple squares. Navigate to your JavaScript console in your DevTools window and verify that each game board square is handling _click_ events.
 
-![Log Click Events](assets/log_click_events.mov)
+![ms-video](assets/log_click_events.mov)
 
 # Game Logic
 
@@ -81,21 +81,21 @@ After handling the _click_ event of our squares, we can move on to actually impl
 
 When a player clicks on a square, the following should happen:
 
-1. Check that the square isn't already faceup or matched with it's pair.
-  2. If so, don't do anything.
-  3. If not, flip the square faceup and set it's `isFaceUp` property to true.
+1. Check that the square isn't already face up or matched with its pair.
+    2. If so, don't do anything.
+    3. If not, flip the square face up and set it's `isFaceUp` property to true.
 4. Handle the game logic for when a square is flipped.
 
-Let's breakdown step 3. further.
+Let's breakdown step 3 further.
 
 ### 3. Handling Flipped Squares
 
 When a square is flipped, the following should happen:
 
-a. If the square is the first to be flipped faceup, save a reference to it and do nothing else.
-b. If the square is the second to be flipped faceup, check if it's faceup color matches with the first square.
-  c. If so, set the squares to matched and clear the reference of the first square.
-  d. If not, flip both squares back to facedown and clear the reference to the first square.
+a. If the square is the first to be flipped face up, save a reference to it and do nothing else.
+b. If the square is the second to be flipped face up, check if it'sface upp color matches with the first square.
+    c. If so, set the squares to matched and clear the reference of the first square.
+    d. If not, flip both squares back to facedown and clear the reference to the first square.
 
 We can start by implementing the logic for when a player clicks on a square.
 
@@ -210,7 +210,7 @@ Walking through the steps above:
 
 When you're finished, refresh your landing page, and start matching away. Your game should be fully working at this point!
 
-![Finish Game Logic](assets/finish_game_logic.mov)
+![ms-video](assets/finish_game_logic.mov)
 
 # Up Next
 
