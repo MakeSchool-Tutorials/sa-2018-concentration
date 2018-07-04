@@ -114,11 +114,11 @@ handleEvent(event) {
         // 2
         return;
       }
-
+>
       // 3
       this.isFaceUp = true;
       this.element.classList.add('flipped');
-
+>
       // 4
       squareFlipped(this);
   }
