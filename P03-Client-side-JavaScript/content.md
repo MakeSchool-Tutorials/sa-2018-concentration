@@ -476,7 +476,7 @@ function setupGame() {
   generateHTMLForBoardSquares();
 }
 >
-setupGame();
+setupGame(); // DO NOT ERASE THIS OR GAME WILL NOT RUN
 ```
 
 Next, we'll need to use our helper functions to generate an array of randomly shuffled color pairs.
