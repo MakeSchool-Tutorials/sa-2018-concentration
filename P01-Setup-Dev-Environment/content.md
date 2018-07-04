@@ -102,7 +102,7 @@ Back in `index.html`, we'll need to link our new stylesheet.
 
 > [action]
 >
-In `index.html`, add the following tag inside your <head> element:
+In `index.html`, add the following tag inside your `<head>` element:
 >
 ```
 <head>
