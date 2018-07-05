@@ -130,7 +130,7 @@ boardElement.innerHTML = `
 console.log(boardElement);
 ```
 >
-It's important to note that we use `String` concatenation and the newline `\n` character to format and organize the HTML we're trying to insert into the DOM.
+It's important to note that we can use a back tick (\`) to start and end a multi-line string. You can also use `String` concatenation and the newline `\n` character to format and organize the HTML we're trying to insert into the DOM.
 
 If you refresh your browser again, you'll notice that our `#gameboard` contains a single `.board-square` `<div>`.
 
