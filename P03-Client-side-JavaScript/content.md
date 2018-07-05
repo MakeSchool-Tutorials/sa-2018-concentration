@@ -119,13 +119,13 @@ In `main.js`, we can use the following code:
 ```JavaScript
 const boardElement = document.getElementById('gameboard');
 >
-boardElement.innerHTML =
-  '<div class="col-3 board-square">\n' +
-  '<div class="face-container">\n' +
-  '<div class="facedown"></div>\n' +
-  '<div class="faceup"></div>\n' +
-  '</div>\n' +
-  '</div>\n';
+boardElement.innerHTML = `
+    <div class="col-3 board-square">
+      <div class="face-container">
+        <div class="facedown"></div>
+        <div class="faceup"></div>
+      </div>
+    </div>`;
 >
 console.log(boardElement);
 ```
@@ -186,13 +186,13 @@ let squaresHTML = '';
 >
 // generate HTML for board squares
 for (let i = 0; i < numberOfSquares; i++) {
-  squaresHTML +=
-    '<div class="col-3 board-square">\n' +
-    '<div class="face-container">\n' +
-    '<div class="facedown"></div>\n' +
-    '<div class="faceup"></div>\n' +
-    '</div>\n' +
-    '</div>\n';
+  squaresHTML += `
+    <div class="col-3 board-square">
+      <div class="face-container">
+        <div class="facedown"></div>
+        <div class="faceup"></div>
+      </div>
+    </div>`;
 }
 >
 // insert squares HTML in DOM
