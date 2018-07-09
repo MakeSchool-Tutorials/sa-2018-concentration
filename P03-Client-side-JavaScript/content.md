@@ -356,7 +356,7 @@ class BoardSquare {
 >
 Let's break down the code we added above:
 >
-1. Create a new function named `setColor` for some better organization and potential future reusablility.
+1. Create a new function named `setColor` for some better organization and potential future reusability.
 1. Access the DOM element of the `.faceup` `<div>` for the respective `.board-square`.
 1. Set the `BoardSquare` object with the new color class.
 1. Add the CSS color class to the `.faceup` `<div>` DOM element to set the `.board-square` element's faceup color.
