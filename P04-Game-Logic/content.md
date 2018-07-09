@@ -13,7 +13,7 @@ In this section, we'll need to implement JavaScript for the following:
 
 # Handling Square Click Events
 
-We'll begin with monitoring and handling _click_ events whenever a player clicks on a square. To do so, we'll a method named `addEventListener()` to send a notification to your `BoardSquare` object whenever a _click_ occurs.
+We'll begin with monitoring and handling _click_ events whenever a player clicks on a square. To do so, we'll use a method named `addEventListener()` to send a notification to your `BoardSquare` object whenever a _click_ occurs.
 
 > [action]
 >
