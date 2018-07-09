@@ -202,7 +202,7 @@ In `main.js`, inside your `setColor()` method of your `BoardSquare` class, add t
 class BoardSquare {
 >
   setColor(color) {
-    const faceUpElement = this.element.getElementsByClassName('face-up')[0];
+    const faceUpElement = this.element.getElementsByClassName('faceup')[0];
 >
     // remove the previous color if it exists
     faceUpElement.classList.remove(this.color);
